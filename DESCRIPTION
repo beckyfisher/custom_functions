@@ -1,0 +1,13 @@
+Package: custom.functions.pkg
+Title: General use custom functions
+Version: 1.0
+Authors@R: c(person("Rebecca", "Fisher", email = "r.fisher@aims.gov.au", role = c("aut", "cre")))
+Description: General use custom functions.
+Depends:
+    R (>= 3.3.2)
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+VignetteBuilder: R.rsp
+Imports: tidyverse
