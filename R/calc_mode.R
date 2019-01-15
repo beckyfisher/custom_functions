@@ -4,7 +4,7 @@
 #'
 #' @param  x A vector of values for which to calculate a mode
 #'
-#' @param  type For numeric data, the type of mode to calculate for numeric vectors
+#' @param  type The type of mode to calculate for numeric vectors
 #'
 #' @export
 #' @return A single value that is the estimate mode.
