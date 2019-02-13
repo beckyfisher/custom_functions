@@ -4,7 +4,7 @@
 #'
 #' @param  x A vector of values for which to apply a logit back-transformation
 #'
-#' @param  car.rescale If car based rescaling is required.
+#' @param  car.rescale Ture/FALSE indicator for if car based rescaling is required.
 #'
 #' @export
 #' @return A vector of logit-backtransformed values.
