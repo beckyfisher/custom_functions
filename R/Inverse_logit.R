@@ -9,8 +9,6 @@
 #' @export
 #' @return A vector of logit-backtransformed values.
 #'
-
-require(car)
 inverse.logit <- function(x,car.rescale) {
    x[which(x>709.7827128933840299)]=709.7827128933840299
    if(car.rescale==T){
