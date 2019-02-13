@@ -1,4 +1,14 @@
-
+#' inverse.logit
+#'
+#' Backtransforms a logit transformation that incolved rescaling as per car.
+#'
+#' @param  x A vector of values for which to apply a logit back-transformation
+#'
+#' @param  car.rescale If car based rescaling is required.
+#'
+#' @export
+#' @return A vector of logit-backtransformed values.
+#'
 
 require(car)
 inverse.logit <- function(x,car.rescale) {
