@@ -4,7 +4,7 @@
 \alias{inverse.logit}
 \title{inverse.logit}
 \usage{
-inverse.logit(x, car.rescale)
+inverse.logit(x, car.rescale = F)
 }
 \arguments{
 \item{x}{A vector of values for which to apply a logit back-transformation}
