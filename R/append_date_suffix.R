@@ -6,7 +6,7 @@
 #' @param  dates A vector of dates for which to generate the appropriate day of the month and assocaited suffix
 #'
 #' @export
-#' @return A single value that is the estimate mode.
+#' @return A vector of day of the month values with the appropriate suffix.
 #'
 append_date_suffix <- function(dates){
   require(lubridate)

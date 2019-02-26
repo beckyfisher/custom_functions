@@ -10,7 +10,7 @@ append_date_suffix(dates)
 \item{dates}{A vector of dates for which to generate the appropriate day of the month and assocaited suffix}
 }
 \value{
-A single value that is the estimate mode.
+A vector of day of the month values with the appropriate suffix.
 }
 \description{
 Generates a day of the month value with the approriate suffix (e.g. 9th or 2nd)
