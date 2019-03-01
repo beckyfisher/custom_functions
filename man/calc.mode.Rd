@@ -12,8 +12,14 @@ calc.mode(x, type = 1)
 \item{type}{The type of mode to calculate for numeric vectors}
 }
 \value{
-A single value that is the estimate mode.
+A single value that is the estimated mode.
 }
 \description{
 Calculates a model value, using the most appropriate method given the data type.
+}
+\details{
+By default this uses table(x) for characters and factor vectors,
+type=1 is for numeric values using a table based method (same definition as for character and factor variables),
+type=2 is based on kernal density, and type=3 is based on a more complex kernal density estimation method
+by Ted Harding & Douglas Bates https://stat.ethz.ch/pipermail/r-help/2008-August/172323.html
 }
