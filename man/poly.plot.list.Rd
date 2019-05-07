@@ -7,10 +7,12 @@
 poly.plot.list(x, y.lim, alpha.f = 0.3, col.val = "grey")
 }
 \arguments{
-\item{x}{A list of x values for plotting - must contain two
-elements representing the start and end values of the polygons}
+\item{x}{A list of x values for plotting - must contain two elements representing the start and end values of the polygons}
 
 \item{y.lim}{The y values over which to draw the polygons}
+}
+\value{
+
 }
 \description{
 Plot a list of values as polygons on the existing plot
