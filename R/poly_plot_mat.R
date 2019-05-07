@@ -9,7 +9,10 @@
 #' @param  end.col The column in the matrix or data.frame that defines the end plotting value for each row
 #'
 #' @param  y.lim The y values over which to draw the polygons
-
+#'
+#' @export
+#' @return
+#'
  poly.plot.mat <- function(x,start.col,end.col,y.lim,alpha.f=1,col.val="yellow"){
   for(r in 1:nrow(x)){
    polygon(c(x[r,start.col], cyc.hist[r,start.col],
