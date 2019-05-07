@@ -16,6 +16,9 @@ poly.plot.mat(x, start.col, end.col, y.lim, alpha.f = 1,
 
 \item{y.lim}{The y values over which to draw the polygons}
 }
+\value{
+
+}
 \description{
 Plot polygons on the existing plot from a supplied matrix of values
 }

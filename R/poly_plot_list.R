@@ -7,6 +7,9 @@
 #'
 #' @param  y.lim The y values over which to draw the polygons
 #'
+#' @export
+#' @return
+#'
  poly.plot.list <- function(x,y.lim,alpha.f=0.3,col.val="grey"){
    for(d in 1:length(x)){
       x.d=x[[d]]
