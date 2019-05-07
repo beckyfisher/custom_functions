@@ -2,8 +2,7 @@
 #'
 #' Plot a list of values as polygons on the existing plot
 #'
-#' @param  x A list of x values for plotting - must contain two
-#' elements representing the start and end values of the polygons
+#' @param  x A list of x values for plotting - must contain two elements representing the start and end values of the polygons
 #'
 #' @param  y.lim The y values over which to draw the polygons
 #'
