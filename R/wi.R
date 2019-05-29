@@ -4,9 +4,10 @@
 #'
 #' @param AIC.vals A vector of AIC, AICc or BIC values
 #'
+#' @export
 #' @return A vector of Akaike weights
 #'
-wi<<-function(AIC.vals){# This function calculate the Aikaike weights:
+wi<-function(AIC.vals){# This function calculate the Aikaike weights:
  # wi=(exp(-1/2*AICc.vals.adj))/Sum.wi=1 to r (exp(-1/2*AICc.vals.adj))
   # Where r is the number of models examined.
 
@@ -18,4 +19,5 @@ wi<<-function(AIC.vals){# This function calculate the Aikaike weights:
   wi.den[i]=exp(-1/2*AICc.vals.adj[i])}
  wi.den.sum=sum(na.omit(wi.den))
  wi=wi.den/wi.den.sum
-return(wi)}
+return(wi)
+}
