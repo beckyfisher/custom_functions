@@ -6,6 +6,12 @@
 \usage{
 \method{plot}{FSS.mod}(mod.r, y.lab = "response")
 }
+\arguments{
+\item{mod.r}{The fam model objsect to plot}
+}
+\value{
+
+}
 \description{
 Generates a plot on the raw scale of the response, for a gam model
 }

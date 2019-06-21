@@ -2,8 +2,12 @@
 #'
 #' Generates a plot on the raw scale of the response, for a gam model
 #'
-#' @mod.r  The fam model objsect to plot
+#' @param mod.r  The fam model objsect to plot
+
+#' @export
+#' @return
 #'
+
 plot.FSS.mod <- function(mod.r,y.lab="response"){
   dat.r <- mod.r[[1]]
   preds <- attributes(mod.r$terms)$term.labels
