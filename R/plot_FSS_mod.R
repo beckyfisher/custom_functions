@@ -1,4 +1,4 @@
-#' plot.FSS.mod
+#' FSSplot
 #'
 #' Generates a plot on the raw scale of the response, for a gam model
 #'
@@ -10,7 +10,7 @@
 #' @return
 #'
 
-plot.FSS.mod <- function(mod.r,y.lab="response"){
+FSSplot <- function(mod.r,y.lab="response"){
   dat.r <- mod.r[[1]]
   preds <- attributes(mod.r$terms)$term.labels
   family.val <- mod.r$family$family
