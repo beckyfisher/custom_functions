@@ -7,7 +7,9 @@
 \method{plot}{FSS.mod}(mod.r, y.lab = "response")
 }
 \arguments{
-\item{mod.r}{The fam model objsect to plot}
+\item{mod.r}{The gam model objsect to plot}
+
+\item{y.lab}{An optional Y label for the response variable}
 }
 \value{
 

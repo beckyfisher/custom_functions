@@ -2,8 +2,10 @@
 #'
 #' Generates a plot on the raw scale of the response, for a gam model
 #'
-#' @param mod.r  The fam model objsect to plot
-
+#' @param mod.r  The gam model objsect to plot
+#'
+#' @param y.lab An optional Y label for the response variable
+#'
 #' @export
 #' @return
 #'
