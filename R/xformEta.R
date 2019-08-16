@@ -13,7 +13,7 @@
 #' Assumed link fuctions are as follows: 'gaussian' = identity, 'poisson' = log, 'gamma'  = log, 'nbinomial' - log, 'binomial' = logit, 'beta' = logit.
 #'
 #' @export
-#' @return A vector of Akaike weights
+#' @return A vector of transformed values
 #'
 xformEta<-function(x,variableType,direction){
  if(direction=="response"){eta=x # from the scale of the link function to the response
