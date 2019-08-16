@@ -18,7 +18,7 @@ For 'link' x is assumed to be on the scale of the response, and is transformed t
 Assumed link fuctions are as follows: 'gaussian' = identity, 'poisson' = log, 'gamma'  = log, 'nbinomial' - log, 'binomial' = logit, 'beta' = logit.}
 }
 \value{
-A vector of Akaike weights
+A vector of transformed values
 }
 \description{
 Transforms and backtransforms between commonly link functions for a range of statistical distributions
