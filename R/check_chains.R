@@ -6,7 +6,7 @@
 #'
 #' @param  params A vector of names indicating the parameters that were traced during the jags fit
 #'
-#' @param name and option character string containing any label to be placed at the top of the plot
+#' @param name and optional character string indicating the label to be placed at the top of the plotting window
 #'
 #' @export
 #' @return A plot of MCMC chains and ACF diagrames for each element in params.
@@ -19,7 +19,7 @@ check.chains <- function(X, params,name=""){
   for (i in 1:length(params)){
    	x1          <- as.vector(x[,,params[i]])
   	chain.id     <- rep(1:num.chains, each = nrow(x[,,params[i]]))
-    num.lags <- length(acf(x[,,params[i]][,j], plot = FALSE)$lag)
+    num.lags <- length(acf(x[,,params[i]][,1], plot = FALSE)$lag)
 
     # plot the chains
     plot(1:nrow(x[,,i]),rep(NA,nrow(x[,,params[i]])), xaxt="n",
