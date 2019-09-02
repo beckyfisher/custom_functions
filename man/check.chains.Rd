@@ -11,7 +11,7 @@ check.chains(X, params, name = "")
 
 \item{params}{A vector of names indicating the parameters that were traced during the jags fit}
 
-\item{name}{and option character string containing any label to be placed at the top of the plot}
+\item{name}{and optional character string indicating the label to be placed at the top of the plotting window}
 }
 \value{
 A plot of MCMC chains and ACF diagrames for each element in params.
